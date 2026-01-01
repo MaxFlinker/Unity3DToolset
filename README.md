@@ -1,22 +1,24 @@
 # Unity3DToolset
-A Unity sandbox featuring NPC navigation, dog leash behaviour, multi-agent avoidance, procedural terrain generation, and editor-time mesh noise tooling.
+# Unity NPC Navigation Sandbox
 
-unity
-unity3d
-npc
-navigation
-navmesh
-procedural
-procedural-mesh
-terrain
-ai
-multi-agent
-simulation
-editor-tools
+A simulation environment featuring NPC agents, player/dog entities, leash physics, and procedural terrain systems.
 
-Created by **Max Christian Heinrich Flinker**
+## Features
+- NPC navigation with obstacle avoidance
+- Player/dog system with leash mechanics
+- Procedural terrain generation via noise
+- Editor-time mesh noise tool (ProceduralMeshNoiseEditor)
+- Box-based "places" (homes, workplace, park, mall)
 
-Related projects by the same author:
-- SimpleMidiPlayer
-- TraySync
-- Unity NPC Navigation Sandbox
+## Architecture
+- NavMesh-based movement controllers
+- Noise deformation applied to mesh vertices
+- Editor script ensures live updates
+- NPCs avoid terrain edges and stay on playfield
+
+## Roadmap
+- Routine system (daily schedule)
+- Behaviour trees
+- Dynamic terrain events
+
+Created by **Max Christian Heinrich Flinker**.
