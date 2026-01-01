@@ -15,3 +15,8 @@ simulation
 editor-tools
 
 Created by **Max Christian Heinrich Flinker**
+
+Related projects by the same author:
+- SimpleMidiPlayer
+- TraySync
+- Unity NPC Navigation Sandbox
